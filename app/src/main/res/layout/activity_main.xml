@@ -7,10 +7,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/helloworld_background"
     tools:context="aggiecelina.helloworld.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World Aggie! "
+        android:background="@color/colorAccent"
+        android:textSize="60sp"
+        android:rotation="45"
+
+
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView"
+        android:autoText="true"
+        android:elegantTextHeight="false"
+        android:theme="@style/AppTheme" />
+
+
 </RelativeLayout>
